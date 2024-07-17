@@ -1,0 +1,148 @@
+ *{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+
+ } 
+.image{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute
+  top 100px;
+
+}
+.image img{
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  border: 1.5px solid hwb(290 47% 9%);
+
+  position: absolute; 
+  left: 50%;
+  top: 30%;
+  transform: translate(-50%, -50%);
+}
+ 
+  
+
+
+
+
+
+  body{
+    background: linear-gradient(hwb(290 47% 9%) 200px,white 50px);
+
+      height: 100vh;
+    }
+    .text{
+      font-style:oblique;
+      font-size: large;
+      font-weight: bold;
+      position: absolute; 
+      left: 50%;
+      top: 45%;
+      transform: translate(-50%, -50%);
+
+
+    }
+    .job{
+      font-style: normal;
+      font-size: small;
+      position: absolute; 
+
+      left: 50%;
+      top: 50%;
+      transform: translate(-50%, -50%);
+
+
+    }
+    
+    
+
+    html {
+      font-size: 20px;
+    }
+    body {
+      background-color: #d19e9e;
+      padding: 305px;
+      text-align: center;
+    }
+    
+    .icon-button {
+      background-color: white;
+      border-radius: 50%;
+      cursor: pointer;
+      font-size: 50px;
+      height: 75px;
+      margin:  2px;
+      position: relative;
+      text-align: center;
+      width: 3.6rem;
+    }
+    
+    
+    .icon-button span {
+      height: 0;
+      left: 50%;
+      position: absolute;
+      top: 50%;
+      -webkit-transition: all 0.1s;
+         -moz-transition: all 0.1s;
+           -o-transition: all 0.1s;
+              transition: all 0.1s;
+      width: 0;
+    }
+    .icon-button:hover span {
+      width: 70px;
+      height: 70px;
+      border-radius: 50px;
+      margin: -35px;
+    }
+    .twitter span {
+      background-color: #4099ff;
+    }
+    .facebook span {
+      background-color: #3B5998;
+    }
+    
+    .instagram span {
+      background-color: #bc2a8d;
+    }
+    
+    
+    
+    .icon-button i {
+
+      height: 3.6rem;
+      left: 0;
+      line-height: 3.6rem;
+      position: absolute;
+      top: 0;
+      -webkit-transition: all 0.3s;
+         -moz-transition: all 0.3s;
+           -o-transition: all 0.3s;
+              transition: all 0.3s;
+      width: 3.6rem;
+      z-index: 5;
+    }
+    .icon-button .fa-twitter {
+      color: #4099ff;
+    }
+    .icon-button .fa-facebook {
+      color: #3B5998;
+    }
+    
+    .icon-button .fa-instagram {
+      color: #4099ff;
+    }
+  
+    .icon-button:hover .fa-twitter,
+    .icon-button:hover .fa-facebook,
+.icon-button:hover .fa-instagram{
+      color: white;
+    }
+    
+ 
